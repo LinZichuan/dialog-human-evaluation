@@ -1,0 +1,150 @@
+301. {'attraction': {'info': {'area': 'centre'}, 'reqt': {'address': '?', 'postcode': '?'}}, 'hotel': {'info': {'name': 'leverton house'}, 'reqt': {'address': '?'}}, 'taxi': {'info': {'leaveAt': '03:15'}, 'reqt': {'car type': '?', 'phone': '?'}}, 'dialog success': '?'}
+task description: You are excited about seeing local tourist attractions. The attraction should be in the centre. Once you find an attraction, make sure you get address, postcode. You are looking for a place to stay. You are looking for a particular hotel. Its name is called leverton house. Once you find a hotel, make sure you get address. You also want to book a taxi to commute between the two places. The taxi should leave from the attraction to the hotel after 03:15. Once you find a taxi, make sure you get car type, phone number.
+
+302. {'hotel': {'info': {'internet': 'yes', 'parking': 'yes', 'pricerange': 'moderate'}, 'book': {'stay': '5', 'day': 'saturday', 'people': '6'}, 'booked': '?'}, 'dialog success': '?'}
+task description: You are looking for a place to stay. The hotel should include free parking. The hotel should include free wifi. The hotel should be in the moderate price range. Once you find the hotel you want to book it for 6 people on saturday for 5 nights.
+
+303. {'restaurant': {'info': {'area': 'west', 'pricerange': 'expensive'}, 'reqt': {'address': '?'}}, 'hotel': {'info': {'internet': 'yes', 'parking': 'yes', 'stars': '4', 'type': 'guesthouse'}, 'reqt': {'postcode': '?'}}, 'taxi': {'info': {'leaveAt': '02:15'}, 'reqt': {'car type': '?', 'phone': '?'}}, 'dialog success': '?'}
+task description: You are looking forward to trying local restaurants. The restaurant should be in the expensive price range. The restaurant should be in the west. Once you find a restaurant, make sure you get address. You are looking for a place to stay. The hotel should be in the type of guesthouse. The hotel should have a star of 4. The hotel should include free parking. The hotel should include free wifi. Once you find a hotel, make sure you get postcode. You also want to book a taxi to commute between the two places. The taxi should leave from the restaurant to the hotel after 02:15. Once you find a taxi, make sure you get car type, phone number.
+
+304. {'taxi': {'info': {'departure': "king's college", 'destination': 'eraina', 'leaveAt': '05:30'}, 'reqt': {'car type': '?', 'phone': '?'}}, 'dialog success': '?'}
+task description: You are also looking for a taxi. The taxi should go to eraina. The taxi should depart from king's college. The taxi should leave after 05:30. Once you find a taxi, make sure you get car type, phone number.
+
+305. {'hospital': {'info': {'department': 'intermediate dependancy area'}, 'reqt': {'phone': '?'}}, 'dialog success': '?'}
+task description: You got injured and are looking for a hospital nearby The hospital should have the intermediate dependancy area department. Make sure you get phone number.
+
+306. {'police': {'info': {}, 'reqt': {'phone': '?'}}, 'dialog success': '?'}
+task description: You were robbed and are looking for help. Make sure you get phone number.
+
+307. {'attraction': {'info': {'area': 'centre'}, 'reqt': {'address': '?', 'postcode': '?'}}, 'restaurant': {'info': {'area': 'centre', 'pricerange': 'moderate'}, 'reqt': {'postcode': '?'}}, 'dialog success': '?'}
+task description: You are excited about seeing local tourist attractions. The attraction should be in the centre. Once you find an attraction, make sure you get address, postcode. You are looking forward to trying local restaurants. The restaurant should be in the moderate price range. The restaurant should be in the same area as the attraction. Once you find a restaurant, make sure you get postcode.
+
+308. {'restaurant': {'info': {'food': 'italian', 'pricerange': 'cheap'}, 'reqt': {'address': '?'}, 'book': {'time': '17:45', 'day': 'tuesday', 'people': '8'}, 'booked': '?'}, 'attraction': {'info': {'name': 'clare college'}, 'reqt': {'entrance fee': '?'}}, 'taxi': {'info': {'arriveBy': '17:00'}, 'reqt': {'car type': '?', 'phone': '?'}}, 'dialog success': '?'}
+task description: You are looking forward to trying local restaurants. The restaurant should serve italian food. The restaurant should be in the cheap price range. Once you find a restaurant, make sure you get address. Once you find the restaurant you want to book a table for 8 people at 17:45 on tuesday. You are excited about seeing local tourist attractions. You are looking for a particular attraction. Its name is called clare college. Once you find an attraction, make sure you get entrance fee. You also want to book a taxi to commute between the two places. The taxi should arrive at the attraction from the restaurant by 17:00. Once you find a taxi, make sure you get car type, phone number.
+
+309. {'train': {'info': {'day': 'friday', 'departure': 'broxbourne', 'destination': 'cambridge', 'leaveAt': '19:45'}, 'book': {'people': '6'}, 'booked': '?'}, 'dialog success': '?'}
+task description: You are also looking for a train. The train should depart from broxbourne. The train should leave on friday. The train should leave after 19:45. The train should go to cambridge. Once you find the train you want to make a booking for 6 people.
+
+310. {'attraction': {'info': {'name': 'tenpin'}, 'reqt': {'address': '?', 'postcode': '?'}}, 'restaurant': {'info': {'area': 'south', 'pricerange': 'cheap'}, 'reqt': {'postcode': '?'}}, 'dialog success': '?'}
+task description: You are excited about seeing local tourist attractions. You are looking for a particular attraction. Its name is called tenpin. Once you find an attraction, make sure you get address, postcode. You are looking forward to trying local restaurants. The restaurant should be in the cheap price range. The restaurant should be in the south. Once you find a restaurant, make sure you get postcode.
+
+311. {'hospital': {'info': {'department': 'neurology'}, 'reqt': {'phone': '?'}}, 'dialog success': '?'}
+task description: You got injured and are looking for a hospital nearby The hospital should have the neurology department. Make sure you get phone number.
+
+312. {'train': {'info': {'arriveBy': '10:30', 'day': 'sunday', 'departure': 'bishops stortford', 'destination': 'cambridge'}, 'reqt': {'price': '?'}}, 'attraction': {'info': {'area': 'west', 'type': 'museum'}, 'reqt': {'phone': '?'}}, 'dialog success': '?'}
+task description: You are also looking for a train. The train should arrive by 10:30. The train should depart from bishops stortford. The train should leave on sunday. The train should go to cambridge. Once you find a train, make sure you get price. You are excited about seeing local tourist attractions. The attraction should be in the type of museum. The attraction should be in the west. Once you find an attraction, make sure you get phone number.
+
+313. {'restaurant': {'info': {'name': 'nandos city centre'}, 'reqt': {'phone': '?'}}, 'hotel': {'info': {'parking': 'yes', 'stars': '3', 'type': 'hotel'}, 'reqt': {'address': '?'}}, 'dialog success': '?'}
+task description: You are looking forward to trying local restaurants. You are looking for a particular restaurant. Its name is called nandos city centre. Once you find a restaurant, make sure you get phone number. You are looking for a place to stay. The hotel should be in the type of hotel. The hotel should have a star of 3. The hotel should include free parking. Once you find a hotel, make sure you get address.
+
+314. {'train': {'info': {'day': 'friday', 'departure': 'cambridge', 'destination': 'london kings cross', 'leaveAt': '11:45'}, 'reqt': {'duration': '?'}, 'book': {'people': '2'}, 'booked': '?'}, 'hotel': {'info': {'name': 'limehouse'}, 'reqt': {'phone': '?'}}, 'dialog success': '?'}
+task description: You are also looking for a train. The train should leave after 11:45. The train should go to london kings cross. The train should leave on friday. The train should depart from cambridge. Once you find a train, make sure you get travel time. Once you find the train you want to make a booking for 2 people. You are looking for a place to stay. You are looking for a particular hotel. Its name is called limehouse. Once you find a hotel, make sure you get phone number.
+
+315. {'train': {'info': {'arriveBy': '11:15', 'day': 'thursday', 'departure': 'cambridge', 'destination': 'kings lynn'}, 'reqt': {'price': '?'}}, 'hotel': {'info': {'name': 'kirkwood house'}, 'reqt': {'type': '?', 'pricerange': '?'}, 'book': {'stay': '5', 'day': 'saturday', 'people': '1'}, 'booked': '?'}, 'dialog success': '?'}
+task description: You are also looking for a train. The train should arrive by 11:15. The train should go to kings lynn. The train should leave on thursday. The train should depart from cambridge. Once you find a train, make sure you get price. You are looking for a place to stay. You are looking for a particular hotel. Its name is called kirkwood house. Once you find a hotel, make sure you get type, price range. Once you find the hotel you want to book it for 1 people on saturday for 5 nights.
+
+316. {'restaurant': {'info': {'area': 'centre', 'food': 'asian oriental', 'pricerange': 'moderate'}, 'book': {'time': '10:00', 'day': 'wednesday', 'people': '1'}, 'booked': '?'}, 'attraction': {'info': {'area': 'centre', 'type': 'cinema'}, 'reqt': {'entrance fee': '?', 'postcode': '?'}}, 'taxi': {'info': {'leaveAt': '18:30'}, 'reqt': {'car type': '?', 'phone': '?'}}, 'dialog success': '?'}
+task description: You are looking forward to trying local restaurants. The restaurant should serve asian oriental food. The restaurant should be in the centre. The restaurant should be in the moderate price range. Once you find the restaurant you want to book a table for 1 people at 10:00 on wednesday. You are excited about seeing local tourist attractions. The attraction should be in the type of cinema. The attraction should be in the same area as the restaurant. Once you find an attraction, make sure you get entrance fee, postcode. You also want to book a taxi to commute between the two places. The taxi should leave from the restaurant to the attraction after 18:30. Once you find a taxi, make sure you get car type, phone number.
+
+317. {'restaurant': {'info': {'name': 'saffron brasserie'}, 'reqt': {'phone': '?', 'address': '?'}}, 'attraction': {'info': {'type': 'nightclub'}, 'reqt': {'phone': '?'}}, 'dialog success': '?'}
+task description: You are looking forward to trying local restaurants. You are looking for a particular restaurant. Its name is called saffron brasserie. Once you find a restaurant, make sure you get phone number, address. You are excited about seeing local tourist attractions. The attraction should be in the type of nightclub. Once you find an attraction, make sure you get phone number.
+
+318. {'restaurant': {'info': {'area': 'centre', 'food': 'british'}, 'reqt': {'phone': '?', 'pricerange': '?'}, 'book': {'day': 'thursday', 'time': '11:15', 'people': '7'}, 'booked': '?'}, 'train': {'info': {'arriveBy': '08:15', 'day': 'thursday', 'departure': 'peterborough', 'destination': 'cambridge'}, 'reqt': {'duration': '?', 'leaveAt': '?'}}, 'dialog success': '?'}
+task description: You are looking forward to trying local restaurants. The restaurant should serve british food. The restaurant should be in the centre. Once you find a restaurant, make sure you get phone number, price range. Once you find the restaurant you want to book a table for 7 people at 11:15 on thursday. You are also looking for a train. The train should depart from peterborough. The train should leave on thursday. The train should go to cambridge. The train should arrive by 08:15. Once you find a train, make sure you get travel time, departure time.
+
+319. {'restaurant': {'info': {'area': 'centre', 'food': 'portuguese', 'pricerange': 'cheap'}, 'reqt': {'phone': '?'}}, 'dialog success': '?'}
+task description: You are looking forward to trying local restaurants. The restaurant should serve portuguese food. The restaurant should be in the centre. The restaurant should be in the cheap price range. Once you find a restaurant, make sure you get phone number.
+
+320. {'hotel': {'info': {'internet': 'yes', 'parking': 'yes', 'pricerange': 'moderate'}, 'reqt': {'area': '?'}}, 'dialog success': '?'}
+task description: You are looking for a place to stay. The hotel should be in the moderate price range. The hotel should include free parking. The hotel should include free wifi. Once you find a hotel, make sure you get area.
+
+321. {'train': {'info': {'day': 'tuesday', 'departure': 'peterborough', 'destination': 'cambridge', 'leaveAt': '13:45'}, 'reqt': {'duration': '?'}}, 'attraction': {'info': {'type': 'college'}, 'reqt': {'postcode': '?'}}, 'dialog success': '?'}
+task description: You are also looking for a train. The train should go to cambridge. The train should depart from peterborough. The train should leave after 13:45. The train should leave on tuesday. Once you find a train, make sure you get travel time. You are excited about seeing local tourist attractions. The attraction should be in the type of college. Once you find an attraction, make sure you get postcode.
+
+322. {'restaurant': {'info': {'area': 'north', 'pricerange': 'expensive'}, 'reqt': {'address': '?'}, 'book': {'time': '12:00', 'day': 'monday', 'people': '7'}, 'booked': '?'}, 'dialog success': '?'}
+task description: You are looking forward to trying local restaurants. The restaurant should be in the north. The restaurant should be in the expensive price range. Once you find a restaurant, make sure you get address. Once you find the restaurant you want to book a table for 7 people at 12:00 on monday.
+
+323. {'restaurant': {'info': {'food': 'european', 'pricerange': 'expensive'}, 'reqt': {'postcode': '?'}, 'book': {'day': 'monday', 'time': '15:45', 'people': '3'}, 'booked': '?'}, 'dialog success': '?'}
+task description: You are looking forward to trying local restaurants. The restaurant should serve european food. The restaurant should be in the expensive price range. Once you find a restaurant, make sure you get postcode. Once you find the restaurant you want to book a table for 3 people at 15:45 on monday.
+
+324. {'restaurant': {'info': {'food': 'indian', 'pricerange': 'cheap'}, 'reqt': {'phone': '?'}}, 'dialog success': '?'}
+task description: You are looking forward to trying local restaurants. The restaurant should serve indian food. The restaurant should be in the cheap price range. Once you find a restaurant, make sure you get phone number.
+
+325. {'restaurant': {'info': {'area': 'centre', 'food': 'asian oriental', 'pricerange': 'expensive'}, 'book': {'people': '2', 'time': '14:00', 'day': 'wednesday'}, 'booked': '?'}, 'train': {'info': {'day': 'sunday', 'departure': 'bishops stortford', 'destination': 'cambridge', 'leaveAt': '17:45'}, 'book': {'people': '8'}, 'booked': '?'}, 'dialog success': '?'}
+task description: You are looking forward to trying local restaurants. The restaurant should be in the centre. The restaurant should be in the expensive price range. The restaurant should serve asian oriental food. Once you find the restaurant you want to book a table for 2 people at 14:00 on wednesday. You are also looking for a train. The train should depart from bishops stortford. The train should leave on sunday. The train should go to cambridge. The train should leave after 17:45. Once you find the train you want to make a booking for 8 people.
+
+326. {'taxi': {'info': {'leaveAt': '04:45', 'departure': 'leverton house', 'destination': 'riverside brasserie'}, 'reqt': {'car type': '?', 'phone': '?'}}, 'dialog success': '?'}
+task description: You are also looking for a taxi. The taxi should depart from leverton house. The taxi should leave after 04:45. The taxi should go to riverside brasserie. Once you find a taxi, make sure you get car type, phone number.
+
+327. {'attraction': {'info': {'type': 'museum'}, 'reqt': {'entrance fee': '?'}}, 'restaurant': {'info': {'area': 'centre', 'pricerange': 'moderate'}, 'reqt': {'postcode': '?'}}, 'dialog success': '?'}
+task description: You are excited about seeing local tourist attractions. The attraction should be in the type of museum. Once you find an attraction, make sure you get entrance fee. You are looking forward to trying local restaurants. The restaurant should be in the moderate price range. The restaurant should be in the centre. Once you find a restaurant, make sure you get postcode.
+
+328. {'taxi': {'info': {'leaveAt': '17:00', 'departure': 'dojo noodle bar', 'destination': 'broxbourne train station'}, 'reqt': {'car type': '?', 'phone': '?'}}, 'dialog success': '?'}
+task description: You are also looking for a taxi. The taxi should go to broxbourne train station. The taxi should leave after 17:00. The taxi should depart from dojo noodle bar. Once you find a taxi, make sure you get car type, phone number.
+
+329. {'train': {'info': {'arriveBy': '15:15', 'day': 'wednesday', 'departure': 'cambridge', 'destination': 'broxbourne'}, 'reqt': {'duration': '?'}}, 'hotel': {'info': {'name': 'express by holiday inn cambridge'}, 'reqt': {'type': '?'}}, 'dialog success': '?'}
+task description: You are also looking for a train. The train should depart from cambridge. The train should arrive by 15:15. The train should go to broxbourne. The train should leave on wednesday. Once you find a train, make sure you get travel time. You are looking for a place to stay. You are looking for a particular hotel. Its name is called express by holiday inn cambridge. Once you find a hotel, make sure you get type.
+
+330. {'police': {'info': {}, 'reqt': {'phone': '?'}}, 'dialog success': '?'}
+task description: You were robbed and are looking for help. Make sure you get phone number.
+
+331. {'hospital': {'info': {'department': 'neonatal unit'}, 'reqt': {'phone': '?'}}, 'dialog success': '?'}
+task description: You got injured and are looking for a hospital nearby The hospital should have the neonatal unit department. Make sure you get phone number.
+
+332. {'restaurant': {'info': {'area': 'centre', 'food': 'korean', 'pricerange': 'expensive'}, 'reqt': {'postcode': '?'}}, 'hotel': {'info': {'area': 'east', 'internet': 'yes', 'pricerange': 'cheap', 'stars': '4'}, 'reqt': {'postcode': '?'}}, 'dialog success': '?'}
+task description: You are looking forward to trying local restaurants. The restaurant should be in the centre. The restaurant should serve korean food. The restaurant should be in the expensive price range. Once you find a restaurant, make sure you get postcode. You are looking for a place to stay. The hotel should have a star of 4. The hotel should be in the cheap price range. The hotel should include free wifi. The hotel should be in the east. Once you find a hotel, make sure you get postcode.
+
+333. {'restaurant': {'info': {'area': 'centre', 'food': 'european', 'pricerange': 'moderate'}, 'book': {'time': '18:30', 'day': 'friday', 'people': '4'}, 'booked': '?'}, 'hotel': {'info': {'internet': 'yes', 'parking': 'yes', 'pricerange': 'cheap'}, 'book': {'stay': '3', 'day': 'friday', 'people': '4'}, 'booked': '?'}, 'taxi': {'info': {'leaveAt': '04:30'}, 'reqt': {'car type': '?', 'phone': '?'}}, 'dialog success': '?'}
+task description: You are looking forward to trying local restaurants. The restaurant should be in the centre. The restaurant should serve european food. The restaurant should be in the moderate price range. Once you find the restaurant you want to book a table for 4 people at 18:30 on friday. You are looking for a place to stay. The hotel should be in the cheap price range. The hotel should include free wifi. The hotel should include free parking. Once you find the hotel you want to book it for the same group of people as the restaurant booking on the same day as the restaurant booking for 3 nights. You also want to book a taxi to commute between the two places. The taxi should leave from the hotel to the restaurant after 04:30. Once you find a taxi, make sure you get car type, phone number.
+
+334. {'police': {'info': {}, 'reqt': {'phone': '?'}}, 'dialog success': '?'}
+task description: You were robbed and are looking for help. Make sure you get phone number.
+
+335. {'attraction': {'info': {'area': 'west', 'type': 'college'}, 'reqt': {'postcode': '?'}}, 'hotel': {'info': {'name': 'bridge guest house'}, 'reqt': {'area': '?'}}, 'dialog success': '?'}
+task description: You are excited about seeing local tourist attractions. The attraction should be in the type of college. The attraction should be in the west. Once you find an attraction, make sure you get postcode. You are looking for a place to stay. You are looking for a particular hotel. Its name is called bridge guest house. Once you find a hotel, make sure you get area.
+
+336. {'restaurant': {'info': {'area': 'centre', 'pricerange': 'moderate'}, 'reqt': {'address': '?'}}, 'train': {'info': {'arriveBy': '11:30', 'day': 'sunday', 'departure': 'london kings cross', 'destination': 'cambridge'}, 'reqt': {'leaveAt': '?'}}, 'dialog success': '?'}
+task description: You are looking forward to trying local restaurants. The restaurant should be in the centre. The restaurant should be in the moderate price range. Once you find a restaurant, make sure you get address. You are also looking for a train. The train should depart from london kings cross. The train should leave on sunday. The train should go to cambridge. The train should arrive by 11:30. Once you find a train, make sure you get departure time.
+
+337. {'taxi': {'info': {'leaveAt': '03:15', 'departure': 'the junction', 'destination': 'pizza express Fen Ditton'}, 'reqt': {'car type': '?', 'phone': '?'}}, 'dialog success': '?'}
+task description: You are also looking for a taxi. The taxi should go to pizza express Fen Ditton. The taxi should depart from the junction. The taxi should leave after 03:15. Once you find a taxi, make sure you get car type, phone number.
+
+338. {'hotel': {'info': {'area': 'east', 'internet': 'yes', 'type': 'guesthouse'}, 'reqt': {'phone': '?'}}, 'train': {'info': {'arriveBy': '21:30', 'day': 'wednesday', 'departure': 'cambridge', 'destination': 'peterborough'}, 'reqt': {'price': '?'}}, 'dialog success': '?'}
+task description: You are looking for a place to stay. The hotel should be in the east. The hotel should be in the type of guesthouse. The hotel should include free wifi. Once you find a hotel, make sure you get phone number. You are also looking for a train. The train should arrive by 21:30. The train should go to peterborough. The train should depart from cambridge. The train should leave on wednesday. Once you find a train, make sure you get price.
+
+339. {'train': {'info': {'arriveBy': '16:00', 'day': 'friday', 'departure': 'stansted airport', 'destination': 'cambridge'}, 'reqt': {'duration': '?'}}, 'hotel': {'info': {'area': 'north', 'pricerange': 'cheap', 'stars': '4'}, 'reqt': {'postcode': '?'}}, 'dialog success': '?'}
+task description: You are also looking for a train. The train should depart from stansted airport. The train should arrive by 16:00. The train should leave on friday. The train should go to cambridge. Once you find a train, make sure you get travel time. You are looking for a place to stay. The hotel should be in the cheap price range. The hotel should have a star of 4. The hotel should be in the north. Once you find a hotel, make sure you get postcode.
+
+340. {'hotel': {'info': {'parking': 'yes', 'pricerange': 'moderate', 'type': 'guesthouse'}, 'reqt': {'area': '?'}}, 'dialog success': '?'}
+task description: You are looking for a place to stay. The hotel should be in the moderate price range. The hotel should include free parking. The hotel should be in the type of guesthouse. Once you find a hotel, make sure you get area.
+
+341. {'restaurant': {'info': {'area': 'centre', 'food': 'lebanese', 'pricerange': 'moderate'}, 'reqt': {'address': '?'}, 'book': {'time': '16:00', 'day': 'tuesday', 'people': '8'}, 'booked': '?'}, 'train': {'info': {'arriveBy': '09:30', 'day': 'wednesday', 'departure': 'cambridge', 'destination': 'norwich'}, 'reqt': {'duration': '?'}}, 'dialog success': '?'}
+task description: You are looking forward to trying local restaurants. The restaurant should be in the moderate price range. The restaurant should be in the centre. The restaurant should serve lebanese food. Once you find a restaurant, make sure you get address. Once you find the restaurant you want to book a table for 8 people at 16:00 on tuesday. You are also looking for a train. The train should go to norwich. The train should depart from cambridge. The train should arrive by 09:30. The train should leave on wednesday. Once you find a train, make sure you get travel time.
+
+342. {'hotel': {'info': {'internet': 'yes', 'parking': 'yes', 'pricerange': 'moderate', 'stars': '4'}, 'reqt': {'address': '?', 'phone': '?'}, 'book': {'stay': '2', 'day': 'saturday', 'people': '8'}, 'booked': '?'}, 'train': {'info': {'arriveBy': '13:45', 'day': 'saturday', 'departure': 'london liverpool street', 'destination': 'cambridge'}, 'reqt': {'price': '?'}}, 'dialog success': '?'}
+task description: You are looking for a place to stay. The hotel should be in the moderate price range. The hotel should have a star of 4. The hotel should include free wifi. The hotel should include free parking. Once you find a hotel, make sure you get address, phone number. Once you find the hotel you want to book it for 8 people on saturday for 2 nights. You are also looking for a train. The train should depart from london liverpool street. The train should arrive by 13:45. The train should go to cambridge. The train should leave on saturday. Once you find a train, make sure you get price.
+
+343. {'train': {'info': {'day': 'saturday', 'departure': 'cambridge', 'destination': 'bishops stortford', 'leaveAt': '14:15'}, 'reqt': {'trainID': '?'}}, 'dialog success': '?'}
+task description: You are also looking for a train. The train should leave after 14:15. The train should go to bishops stortford. The train should depart from cambridge. The train should leave on saturday. Once you find a train, make sure you get train ID.
+
+344. {'hospital': {'info': {'department': 'plastic and vascular surgery plastics'}, 'reqt': {'phone': '?'}}, 'dialog success': '?'}
+task description: You got injured and are looking for a hospital nearby The hospital should have the plastic and vascular surgery plastics department. Make sure you get phone number.
+
+345. {'hotel': {'info': {'name': 'huntingdon marriott hotel'}, 'reqt': {'phone': '?', 'type': '?'}}, 'dialog success': '?'}
+task description: You are looking for a place to stay. You are looking for a particular hotel. Its name is called huntingdon marriott hotel. Once you find a hotel, make sure you get phone number, type.
+
+346. {'restaurant': {'info': {'area': 'centre', 'pricerange': 'moderate'}, 'reqt': {'phone': '?', 'postcode': '?'}}, 'dialog success': '?'}
+task description: You are looking forward to trying local restaurants. The restaurant should be in the moderate price range. The restaurant should be in the centre. Once you find a restaurant, make sure you get phone number, postcode.
+
+347. {'restaurant': {'info': {'food': 'chinese', 'pricerange': 'expensive'}, 'reqt': {'address': '?'}}, 'dialog success': '?'}
+task description: You are looking forward to trying local restaurants. The restaurant should be in the expensive price range. The restaurant should serve chinese food. Once you find a restaurant, make sure you get address.
+
+348. {'train': {'info': {'arriveBy': '12:15', 'day': 'thursday', 'departure': 'peterborough', 'destination': 'cambridge'}, 'reqt': {'trainID': '?'}}, 'dialog success': '?'}
+task description: You are also looking for a train. The train should leave on thursday. The train should arrive by 12:15. The train should go to cambridge. The train should depart from peterborough. Once you find a train, make sure you get train ID.
+
+349. {'restaurant': {'info': {'area': 'east', 'pricerange': 'expensive'}, 'reqt': {'address': '?'}}, 'hotel': {'info': {'area': 'south', 'internet': 'yes', 'type': 'guesthouse'}, 'reqt': {'address': '?'}}, 'taxi': {'info': {'arriveBy': '20:00'}, 'reqt': {'car type': '?', 'phone': '?'}}, 'dialog success': '?'}
+task description: You are looking forward to trying local restaurants. The restaurant should be in the east. The restaurant should be in the expensive price range. Once you find a restaurant, make sure you get address. You are looking for a place to stay. The hotel should be in the south. The hotel should include free wifi. The hotel should be in the type of guesthouse. Once you find a hotel, make sure you get address. You also want to book a taxi to commute between the two places. The taxi should arrive at the restaurant from the hotel by 20:00. Once you find a taxi, make sure you get car type, phone number.
+
+350. {'restaurant': {'info': {'area': 'west', 'food': 'british', 'pricerange': 'moderate'}, 'reqt': {'address': '?'}}, 'dialog success': '?'}
+task description: You are looking forward to trying local restaurants. The restaurant should serve british food. The restaurant should be in the west. The restaurant should be in the moderate price range. Once you find a restaurant, make sure you get address.
+
